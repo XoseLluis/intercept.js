@@ -1,3 +1,7 @@
+//	deploytonenyures.blogspot.com
+//	https://github.com/XoseLluis/intercept.js.git
+
+
 //@obj: object being intercepted
 //@method: string name of the method being intercepted
 

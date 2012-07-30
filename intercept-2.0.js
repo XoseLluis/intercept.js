@@ -1,3 +1,6 @@
+//	deploytonenyures.blogspot.com
+//	https://github.com/XoseLluis/intercept.js.git
+
 var print = function(msg){
 	console.log(msg);
 };
