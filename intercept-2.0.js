@@ -41,7 +41,7 @@ function interceptProperty(obj, key, getInterceptor, setInterceptor){
 	var desc;
 	//we have to do this check instead of originalDesc.value !== undefined... cause of one corner case, a data descriptor where value has been set to undefined :
 	//var o1 = {name: undefined};
-	if(originalDesc.desc || originalDesc.set){
+	if(originalDesc.get || originalDesc.set){
 		print("intercepting accessor property");
 		desc = originalDesc;
 	}
